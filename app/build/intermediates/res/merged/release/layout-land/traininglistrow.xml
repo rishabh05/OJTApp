@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    <RelativeLayout 
+        android:id="@+id/traininglayout"
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+    	android:layout_marginBottom="5dp"
+    	android:layout_marginLeft="10dp"
+    	android:layout_marginRight="10dp"
+    	android:layout_marginTop="5dp"
+    	android:background="@drawable/contentunread">
+    	<RelativeLayout
+    	android:id="@+id/imagelayout"
+	    android:layout_width="120dp"
+	    android:layout_height="120dp"
+	    android:layout_centerVertical="true"
+	    android:layout_marginLeft="15dp" >
+        <ImageView
+            android:id="@+id/trainingimage"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/nothumbnail" />
+		<ProgressBar
+            android:id="@+id/progressBar1"
+            style="?android:attr/progressBarStyle"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    	</RelativeLayout>
+    	<TextView
+    	    android:id="@+id/trainingtext"
+    	    android:layout_width="match_parent"
+    	    android:layout_height="wrap_content"
+    	    android:layout_marginLeft="30dp"
+    	    android:layout_marginRight="25dp"
+    	    android:layout_marginTop="32dp"
+    	    android:layout_toRightOf="@id/imagelayout"
+    	    android:singleLine="true"
+    	    android:text="TextView"
+    	    android:ellipsize="marquee"
+    	    android:marqueeRepeatLimit="marquee_forever"
+    	    android:textAppearance="?android:attr/textAppearanceLarge"
+    	    android:textColor="@color/trainingtext_textcolor"
+    	    android:textStyle="bold" />
+		<ImageView
+		    android:id="@+id/refimage"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentBottom="true"
+		    android:layout_marginBottom="30dp"
+		    android:layout_marginLeft="30dp"
+		    android:layout_toRightOf="@id/imagelayout"
+		    android:src="@drawable/reftag" />
+    	    <TextView
+    	    android:id="@+id/refedttxt"
+    	    android:layout_width="match_parent"
+    	    android:layout_height="wrap_content"
+    	    android:layout_alignParentBottom="true"
+    	    android:layout_marginBottom="30dp"
+    	    android:layout_marginRight="15dp"
+    	    android:layout_toRightOf="@id/refimage"
+    	    android:focusable="false"
+    	    android:focusableInTouchMode="false"
+    	    android:scrollHorizontally="true" 
+    	    android:ellipsize="marquee"
+    	    android:marqueeRepeatLimit="marquee_forever"
+    	    android:singleLine="true"
+    	    android:textColor="@color/refedttxt_textcolor"
+    	    android:textSize="@dimen/refedttxt_textsize"
+    	    android:text="REF.TEXT"
+    	    android:textStyle="bold" 
+    	     /> 
+    </RelativeLayout>
+</LinearLayout>

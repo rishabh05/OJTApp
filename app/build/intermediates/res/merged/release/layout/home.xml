@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:id="@+id/homelinear"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/subbg"
+        android:orientation="vertical"
+        android:paddingBottom="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="20dp" >
+        <Button
+            android:id="@+id/baauditbtn"
+            android:layout_width="350dp"
+            android:layout_height="70dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/btnbg"
+            android:text="@string/baauditbtn_text"
+            android:textColor="@color/baauditbtn_textcolor"
+            android:textSize="@dimen/baauditbtn_textsize" />
+        <Button
+            android:id="@+id/readyrecbtn"
+            android:layout_width="350dp"
+            android:layout_height="75dp"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/btnbg"
+            android:text="@string/readyrec_text"
+            android:textColor="@color/readyrecbtn_textcolor"
+            android:textSize="@dimen/readyrecbtn_textsize" />
+        <RelativeLayout
+            android:id="@+id/relative1"
+            android:layout_width="360dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="75dp" >
+            <Button
+            android:id="@+id/trainingbtn"
+            android:layout_width="350dp"
+            android:layout_height="75dp"
+            android:background="@drawable/btnbg"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/trainingbtn_text"
+            android:textSize="@dimen/trainingbtn_textsize" 
+            android:textColor="@color/trainingbtn_textcolor"  />
+            <TextView
+                android:id="@+id/msgcounttxt"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="18dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/msgcounthme"
+                android:gravity="center"
+                android:textColor="@color/msgcounthmetxt_textcolor"
+                android:textSize="@dimen/trainingbtn_textsize" />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/pendingaudit"
+            android:layout_width="350dp"
+            android:layout_height="75dp"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/btnbg"
+            android:text="@string/pendingauditbtn_text"
+            android:textColor="@color/readyrecbtn_textcolor"
+            android:textSize="@dimen/readyrecbtn_textsize" />
+
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/menutopbarbg" >
+         <TextView
+             android:id="@+id/headingtxt"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_centerInParent="true"
+             android:textStyle="bold"
+             android:text="@string/home_headingtxt_text"
+             android:textSize="@dimen/headingtxt_textsize"
+             android:textColor="@color/headingtxt_textcolor"
+             android:textAppearance="?android:attr/textAppearanceLarge" />
+         <Button
+             android:id="@+id/configbtn"
+             style="?android:attr/buttonStyleSmall"
+             android:layout_width="50dp"
+             android:layout_height="50dp"
+             android:layout_alignParentRight="true"
+             android:layout_marginRight="10dp"
+             android:layout_centerVertical="true"
+             android:background="@drawable/configbtn"
+             android:text="" />
+    </RelativeLayout>
+</RelativeLayout>

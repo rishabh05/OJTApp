@@ -1,0 +1,350 @@
+[
+    {
+        "merged": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\build\\intermediates\\res\\merged\\release\\drawable\\msgcounthme.png",
+        "source": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\src\\main\\res\\drawable\\msgcounthme.png"
+    },
+    {
+        "merged": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\build\\intermediates\\res\\merged\\release\\drawable\\checkstyle.xml",
+        "source": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\src\\main\\res\\drawable\\checkstyle.xml"
+    },
+    {
+        "merged": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\build\\intermediates\\res\\merged\\release\\drawable\\btnbg.png",
+        "source": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\src\\main\\res\\drawable\\btnbg.png"
+    },
+    {
+        "merged": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\build\\intermediates\\res\\merged\\release\\drawable\\subbg.png",
+        "source": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\src\\main\\res\\drawable\\subbg.png"
+    },
+    {
+        "merged": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\build\\intermediates\\res\\merged\\release\\drawable\\basubmitbtn_disable.png",
+        "source": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\src\\main\\res\\drawable\\basubmitbtn_disable.png"
+    },
+    {
+        "merged": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\build\\intermediates\\res\\merged\\release\\drawable\\auditbtn_disable.png",
+        "source": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\src\\main\\res\\drawable\\auditbtn_disable.png"
+    },
+    {
+        "merged": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\build\\intermediates\\res\\merged\\release\\drawable\\reftag.png",
+        "source": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\src\\main\\res\\drawable\\reftag.png"
+    },
+    {
+        "merged": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\build\\intermediates\\res\\merged\\release\\drawable\\nextbtn.png",
+        "source": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\src\\main\\res\\drawable\\nextbtn.png"
+    },
+    {
+        "merged": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\0e5a60be3f26e9c65e240eadc8b7b7862c052ddc\\output\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\build\\intermediates\\res\\merged\\release\\drawable\\capimg.png",
+        "source": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\src\\main\\res\\drawable\\capimg.png"
+    },
+    {
+        "merged": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\build\\intermediates\\res\\merged\\release\\drawable\\app_icon.png",
+        "source": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\src\\main\\res\\drawable\\app_icon.png"
+    },
+    {
+        "merged": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\build\\intermediates\\res\\merged\\release\\drawable\\transparentbg.png",
+        "source": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\src\\main\\res\\drawable\\transparentbg.png"
+    },
+    {
+        "merged": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\0e5a60be3f26e9c65e240eadc8b7b7862c052ddc\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\build\\intermediates\\res\\merged\\release\\drawable\\auditsummarybtn_disable.png",
+        "source": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\src\\main\\res\\drawable\\auditsummarybtn_disable.png"
+    },
+    {
+        "merged": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\build\\intermediates\\res\\merged\\release\\drawable\\msgcount.png",
+        "source": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\src\\main\\res\\drawable\\msgcount.png"
+    },
+    {
+        "merged": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_textfield_search_material.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\0e5a60be3f26e9c65e240eadc8b7b7862c052ddc\\output\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\build\\intermediates\\res\\merged\\release\\drawable\\downarrow.png",
+        "source": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\src\\main\\res\\drawable\\downarrow.png"
+    },
+    {
+        "merged": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\0e5a60be3f26e9c65e240eadc8b7b7862c052ddc\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\0e5a60be3f26e9c65e240eadc8b7b7862c052ddc\\output\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\build\\intermediates\\res\\merged\\release\\drawable\\imgcapbtn.png",
+        "source": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\src\\main\\res\\drawable\\imgcapbtn.png"
+    },
+    {
+        "merged": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\build\\intermediates\\res\\merged\\release\\drawable\\footerbg.png",
+        "source": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\src\\main\\res\\drawable\\footerbg.png"
+    },
+    {
+        "merged": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\build\\intermediates\\res\\merged\\release\\drawable\\precheckboxunselect.png",
+        "source": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\src\\main\\res\\drawable\\precheckboxunselect.png"
+    },
+    {
+        "merged": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\build\\intermediates\\res\\merged\\release\\drawable\\radiostyle.xml",
+        "source": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\src\\main\\res\\drawable\\radiostyle.xml"
+    },
+    {
+        "merged": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\build\\intermediates\\res\\merged\\release\\drawable\\design_fab_background.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\cb283b0621a957a64ae6a4ab4496fc72bcfdda6e\\output\\res\\drawable\\design_fab_background.xml"
+    },
+    {
+        "merged": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\build\\intermediates\\res\\merged\\release\\drawable\\basubmitbtn.png",
+        "source": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\src\\main\\res\\drawable\\basubmitbtn.png"
+    },
+    {
+        "merged": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\build\\intermediates\\res\\merged\\release\\drawable\\auditbtn.png",
+        "source": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\src\\main\\res\\drawable\\auditbtn.png"
+    },
+    {
+        "merged": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\build\\intermediates\\res\\merged\\release\\drawable\\tablerowdark.png",
+        "source": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\src\\main\\res\\drawable\\tablerowdark.png"
+    },
+    {
+        "merged": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\build\\intermediates\\res\\merged\\release\\drawable\\basearchbtn_disable.png",
+        "source": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\src\\main\\res\\drawable\\basearchbtn_disable.png"
+    },
+    {
+        "merged": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\build\\intermediates\\res\\merged\\release\\drawable\\nothumbnail.jpg",
+        "source": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\src\\main\\res\\drawable\\nothumbnail.jpg"
+    },
+    {
+        "merged": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\build\\intermediates\\res\\merged\\release\\drawable\\refresh.png",
+        "source": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\src\\main\\res\\drawable\\refresh.png"
+    },
+    {
+        "merged": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\build\\intermediates\\res\\merged\\release\\drawable\\trainingbg.png",
+        "source": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\src\\main\\res\\drawable\\trainingbg.png"
+    },
+    {
+        "merged": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\build\\intermediates\\res\\merged\\release\\drawable\\play.png",
+        "source": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\src\\main\\res\\drawable\\play.png"
+    },
+    {
+        "merged": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\0e5a60be3f26e9c65e240eadc8b7b7862c052ddc\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\build\\intermediates\\res\\merged\\release\\drawable\\unselectradiobtn.png",
+        "source": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\src\\main\\res\\drawable\\unselectradiobtn.png"
+    },
+    {
+        "merged": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_radio_material.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\0e5a60be3f26e9c65e240eadc8b7b7862c052ddc\\output\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\0e5a60be3f26e9c65e240eadc8b7b7862c052ddc\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\build\\intermediates\\res\\merged\\release\\drawable\\checkboxunselect.png",
+        "source": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\src\\main\\res\\drawable\\checkboxunselect.png"
+    },
+    {
+        "merged": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\build\\intermediates\\res\\merged\\release\\drawable\\auditsummarybtn.png",
+        "source": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\src\\main\\res\\drawable\\auditsummarybtn.png"
+    },
+    {
+        "merged": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\0e5a60be3f26e9c65e240eadc8b7b7862c052ddc\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_borderless_material.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\0e5a60be3f26e9c65e240eadc8b7b7862c052ddc\\output\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ratingbar_full_material.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\0e5a60be3f26e9c65e240eadc8b7b7862c052ddc\\output\\res\\drawable\\abc_ratingbar_full_material.xml"
+    },
+    {
+        "merged": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\build\\intermediates\\res\\merged\\release\\drawable\\checkboxselect.png",
+        "source": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\src\\main\\res\\drawable\\checkboxselect.png"
+    },
+    {
+        "merged": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\build\\intermediates\\res\\merged\\release\\drawable\\basearchactxt.png",
+        "source": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\src\\main\\res\\drawable\\basearchactxt.png"
+    },
+    {
+        "merged": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\build\\intermediates\\res\\merged\\release\\drawable\\contact.png",
+        "source": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\src\\main\\res\\drawable\\contact.png"
+    },
+    {
+        "merged": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\build\\intermediates\\res\\merged\\release\\drawable\\basignrelative.png",
+        "source": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\src\\main\\res\\drawable\\basignrelative.png"
+    },
+    {
+        "merged": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\build\\intermediates\\res\\merged\\release\\drawable\\backbtn.png",
+        "source": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\src\\main\\res\\drawable\\backbtn.png"
+    },
+    {
+        "merged": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\build\\intermediates\\res\\merged\\release\\drawable\\basearchbtn.png",
+        "source": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\src\\main\\res\\drawable\\basearchbtn.png"
+    },
+    {
+        "merged": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_check_material.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\0e5a60be3f26e9c65e240eadc8b7b7862c052ddc\\output\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\build\\intermediates\\res\\merged\\release\\drawable\\backbtn_disable.png",
+        "source": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\src\\main\\res\\drawable\\backbtn_disable.png"
+    },
+    {
+        "merged": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\build\\intermediates\\res\\merged\\release\\drawable\\auditscorebtn_disable.png",
+        "source": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\src\\main\\res\\drawable\\auditscorebtn_disable.png"
+    },
+    {
+        "merged": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_tab_indicator_material.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\0e5a60be3f26e9c65e240eadc8b7b7862c052ddc\\output\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\build\\intermediates\\res\\merged\\release\\drawable\\menutopbarbg.png",
+        "source": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\src\\main\\res\\drawable\\menutopbarbg.png"
+    },
+    {
+        "merged": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\0e5a60be3f26e9c65e240eadc8b7b7862c052ddc\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\build\\intermediates\\res\\merged\\release\\drawable\\usernameedttext.png",
+        "source": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\src\\main\\res\\drawable\\usernameedttext.png"
+    },
+    {
+        "merged": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\build\\intermediates\\res\\merged\\release\\drawable\\search.png",
+        "source": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\src\\main\\res\\drawable\\search.png"
+    },
+    {
+        "merged": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\build\\intermediates\\res\\merged\\release\\drawable\\submitbtnbg.png",
+        "source": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\src\\main\\res\\drawable\\submitbtnbg.png"
+    },
+    {
+        "merged": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\build\\intermediates\\res\\merged\\release\\drawable\\tablerowlight.png",
+        "source": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\src\\main\\res\\drawable\\tablerowlight.png"
+    },
+    {
+        "merged": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\build\\intermediates\\res\\merged\\release\\drawable\\precheckstyle.xml",
+        "source": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\src\\main\\res\\drawable\\precheckstyle.xml"
+    },
+    {
+        "merged": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\0e5a60be3f26e9c65e240eadc8b7b7862c052ddc\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_seekbar_track_material.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\0e5a60be3f26e9c65e240eadc8b7b7862c052ddc\\output\\res\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\build\\intermediates\\res\\merged\\release\\drawable\\background.png",
+        "source": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\src\\main\\res\\drawable\\background.png"
+    },
+    {
+        "merged": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\0e5a60be3f26e9c65e240eadc8b7b7862c052ddc\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\build\\intermediates\\res\\merged\\release\\drawable\\highlightbg.png",
+        "source": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\src\\main\\res\\drawable\\highlightbg.png"
+    },
+    {
+        "merged": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\build\\intermediates\\res\\merged\\release\\drawable\\uparrow.png",
+        "source": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\src\\main\\res\\drawable\\uparrow.png"
+    },
+    {
+        "merged": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_dialog_material_background_dark.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\0e5a60be3f26e9c65e240eadc8b7b7862c052ddc\\output\\res\\drawable\\abc_dialog_material_background_dark.xml"
+    },
+    {
+        "merged": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\build\\intermediates\\res\\merged\\release\\drawable\\menu.png",
+        "source": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\src\\main\\res\\drawable\\menu.png"
+    },
+    {
+        "merged": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\build\\intermediates\\res\\merged\\release\\drawable\\precheckboxselect.png",
+        "source": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\src\\main\\res\\drawable\\precheckboxselect.png"
+    },
+    {
+        "merged": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\build\\intermediates\\res\\merged\\release\\drawable\\nextbtn_disable.png",
+        "source": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\src\\main\\res\\drawable\\nextbtn_disable.png"
+    },
+    {
+        "merged": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\build\\intermediates\\res\\merged\\release\\drawable\\contentread.png",
+        "source": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\src\\main\\res\\drawable\\contentread.png"
+    },
+    {
+        "merged": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\build\\intermediates\\res\\merged\\release\\drawable\\passwordedttext.png",
+        "source": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\src\\main\\res\\drawable\\passwordedttext.png"
+    },
+    {
+        "merged": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\0e5a60be3f26e9c65e240eadc8b7b7862c052ddc\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_switch_thumb_material.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\0e5a60be3f26e9c65e240eadc8b7b7862c052ddc\\output\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\build\\intermediates\\res\\merged\\release\\drawable\\auditscorebtn.png",
+        "source": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\src\\main\\res\\drawable\\auditscorebtn.png"
+    },
+    {
+        "merged": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\build\\intermediates\\res\\merged\\release\\drawable\\design_snackbar_background.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\cb283b0621a957a64ae6a4ab4496fc72bcfdda6e\\output\\res\\drawable\\design_snackbar_background.xml"
+    },
+    {
+        "merged": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_dialog_material_background_light.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\0e5a60be3f26e9c65e240eadc8b7b7862c052ddc\\output\\res\\drawable\\abc_dialog_material_background_light.xml"
+    },
+    {
+        "merged": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_cab_background_top_material.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\0e5a60be3f26e9c65e240eadc8b7b7862c052ddc\\output\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\build\\intermediates\\res\\merged\\release\\drawable\\configbtn.png",
+        "source": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\src\\main\\res\\drawable\\configbtn.png"
+    },
+    {
+        "merged": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\build\\intermediates\\res\\merged\\release\\drawable\\bainfobtn.png",
+        "source": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\src\\main\\res\\drawable\\bainfobtn.png"
+    },
+    {
+        "merged": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\0e5a60be3f26e9c65e240eadc8b7b7862c052ddc\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\build\\intermediates\\res\\merged\\release\\drawable\\bainfobtn_disable.png",
+        "source": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\src\\main\\res\\drawable\\bainfobtn_disable.png"
+    },
+    {
+        "merged": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\build\\intermediates\\res\\merged\\release\\drawable\\selectradiobtn.png",
+        "source": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\src\\main\\res\\drawable\\selectradiobtn.png"
+    },
+    {
+        "merged": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_item_background_holo_light.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\0e5a60be3f26e9c65e240eadc8b7b7862c052ddc\\output\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\build\\intermediates\\res\\merged\\release\\drawable\\lookupbtn.png",
+        "source": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\src\\main\\res\\drawable\\lookupbtn.png"
+    },
+    {
+        "merged": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_text_cursor_material.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\0e5a60be3f26e9c65e240eadc8b7b7862c052ddc\\output\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\build\\intermediates\\res\\merged\\release\\drawable\\subtitlebg.png",
+        "source": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\src\\main\\res\\drawable\\subtitlebg.png"
+    },
+    {
+        "merged": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\build\\intermediates\\res\\merged\\release\\drawable\\contentunread.png",
+        "source": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\src\\main\\res\\drawable\\contentunread.png"
+    },
+    {
+        "merged": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\0e5a60be3f26e9c65e240eadc8b7b7862c052ddc\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
+    }
+]

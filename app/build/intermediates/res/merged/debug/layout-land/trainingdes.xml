@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background" >
+    <TextView
+        android:id="@+id/headingtxt"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/menutopbarbg"
+        android:gravity="center"
+        android:text="@string/training_headingtxt_text"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/headingtxt_textcolor"
+        android:textSize="@dimen/headingtxt_textsize"
+        android:textStyle="bold" />
+        <ImageView
+        android:id="@+id/trainingExpandimg"
+        android:layout_width="800dp"
+        android:layout_height="400dp"
+        android:layout_centerInParent="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/app_icon" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/footerbg"
+        android:layout_alignParentBottom="true" >
+        <Button
+        android:id="@+id/backbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="15dp"
+        android:background="@drawable/backbtn"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="1000dp"
+        android:layout_height="400dp"
+        android:layout_centerInParent="true" >
+        <VideoView
+	    android:id="@+id/trainingvideo"
+	    android:layout_width="match_parent"
+        android:layout_height="match_parent"
+	    android:layout_alignParentTop="true"
+	    android:layout_alignParentBottom="true"
+	    android:layout_alignParentLeft="true"
+	    android:layout_alignParentRight="true"
+	    android:layout_centerInParent="true"/> 
+	    <Button
+	         android:id="@+id/playbtn"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:layout_centerInParent="true"
+	         android:background="@drawable/play"/>
+    </RelativeLayout>
+</RelativeLayout>

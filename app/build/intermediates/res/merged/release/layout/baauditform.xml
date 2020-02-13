@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutbg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+	<LinearLayout
+	    android:id="@+id/headingmainlinear"
+	    android:layout_width="match_parent"
+	    android:layout_height="90dp"
+	    android:background="@drawable/menutopbarbg"
+	    android:weightSum="2" >
+	    <TextView
+	        android:id="@+id/headingtxt"
+	        android:layout_width="0dp"
+	        android:layout_height="90dp"
+	        android:layout_weight="1.5"
+	        android:gravity="center"
+	        android:text="@string/auditform_headingtxt_text"
+	        android:textAppearance="?android:attr/textAppearanceLarge"
+	        android:textColor="@color/headingtxt_textcolor"
+	        android:textSize="@dimen/headingtxt_textsize"
+	        android:textStyle="bold" />
+	    <RelativeLayout
+	        android:id="@+id/relative1"
+	        android:layout_width="0dp"
+	        android:layout_height="75dp"
+	        android:layout_gravity="center_horizontal"
+	        android:layout_marginRight="15dp"
+	        android:layout_weight="0.5" >
+
+            <Button
+                android:id="@+id/trainingbtn"
+                android:layout_width="150dp"
+                android:layout_height="55dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="27dp"
+                android:background="@drawable/trainingbg"
+                android:paddingBottom="5dp"
+                android:paddingLeft="15dp"
+                android:text="@string/form_trainingbtn_text"
+                android:textColor="@color/form_trainingbtn_textcolor"
+                android:textSize="@dimen/form_trainingbtn_textsize"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/msgcounttxt"
+                android:layout_width="53dp"
+                android:layout_height="53dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:text=""
+                android:visibility="invisible"
+                android:textColor="@color/msgcounttxt_textcolor"
+                android:textSize="20sp" 
+                android:layout_alignParentRight="true"
+                android:background="@drawable/msgcount"/>
+        </RelativeLayout>
+	</LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/headingmainlinear"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/menu" >
+
+        <TextView
+            android:id="@+id/datetxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:textColor="@color/datetxt_textcolor"
+            android:textSize="@dimen/datetxt_textsize" />
+        <TextView
+            android:id="@+id/timetxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:textColor="@color/timetxt_textcolor"
+            android:textSize="@dimen/timetxt_textsize" />
+    </RelativeLayout>
+
+  <LinearLayout
+      android:id="@+id/headinglinear"
+      android:layout_width="match_parent"
+      android:layout_height="40dp"
+      android:layout_marginLeft="8dp"
+      android:layout_marginRight="8dp"
+      android:layout_marginTop="150dp"
+      android:background="@drawable/menu"
+      android:orientation="horizontal" >
+
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/auditformscroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="70dp"
+        android:layout_marginTop="190dp"
+        android:fadeScrollbars="false"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:scrollbarStyle="outsideOverlay" >
+
+        <LinearLayout
+            android:id="@+id/auditformlinear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="20dp" >
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:id="@+id/footerLinear"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/footerbg"
+        android:weightSum="4" >
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+            <Button
+                android:id="@+id/bainfobtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center_vertical"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/bainfobtn" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/auditsummarybtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/auditsummarybtn" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center" >
+            <Button
+                android:id="@+id/auditscorebtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/auditscorebtn" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="right|center_vertical" >
+            <Button
+                android:id="@+id/nextbtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/nextbtn" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

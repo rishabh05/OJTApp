@@ -1,0 +1,7 @@
+#Wed Jan 08 23:46:38 IST 2020
+base.0=G\:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_52b59e9e909a3bcb51f3b142ab84222fc3378ed4
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=G\:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_c6d437b36a725c328d88a82650ba50604aa50371\\classes.dex
+base.1=G\:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_c6d437b36a725c328d88a82650ba50604aa50371
+file.0=G\:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_52b59e9e909a3bcb51f3b142ab84222fc3378ed4\\classes.dex

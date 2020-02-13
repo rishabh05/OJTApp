@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\user\.android\build-cache\0b20db2c0d7dd9c5aa04bea449aed01b371da2c4\output\jars\libs\internal_impl-23.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4da5a4d697d32497c6f85567a5112e62fdfd0676">
+        <dex dex="G:\OJTClient\OJTClient8.01\OJTClient8.0\app\build\intermediates\pre-dexed\release\internal_impl-23.3.0_4ed2ec9f82bae3660d263df6637600f02ad66d3a.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="G:\OJTClient\OJTClient8.01\OJTClient8.0\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c9561e5b4fd03f28185224b551f6db1ffb1efb2a">
+        <dex dex="G:\OJTClient\OJTClient8.01\OJTClient8.0\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_52b59e9e909a3bcb51f3b142ab84222fc3378ed4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\.android\build-cache\0b20db2c0d7dd9c5aa04bea449aed01b371da2c4\output\jars\libs\internal_impl-23.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4da5a4d697d32497c6f85567a5112e62fdfd0676">
+        <dex dex="G:\OJTClient\OJTClient8.01\OJTClient8.0\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.3.0_4ed2ec9f82bae3660d263df6637600f02ad66d3a\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\OJTClient\OJTClient8.01\OJTClient8.0\app\libs\gcm.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a6d7bce795a14c7f86111756c4ceb44b79de14aa">
+        <dex dex="G:\OJTClient\OJTClient8.01\OJTClient8.0\app\build\intermediates\pre-dexed\debug\gcm_6fd3968510eabf193f5d330e5e58f2233c933a67.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="G:\OJTClient\OJTClient8.01\OJTClient8.0\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="G:\OJTClient\OJTClient8.01\OJTClient8.0\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_c6d437b36a725c328d88a82650ba50604aa50371\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="G:\OJTClient\OJTClient8.01\OJTClient8.0\app\libs\gcm.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a6d7bce795a14c7f86111756c4ceb44b79de14aa">
+        <dex dex="G:\OJTClient\OJTClient8.01\OJTClient8.0\app\build\intermediates\transforms\dex\debug\folders\1000\2\gcm_6fd3968510eabf193f5d330e5e58f2233c933a67\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\user\.android\build-cache\8f5198dd4d0b4bb824a3c5301b95eb9a0520d184\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="322abfc902a9d673dacfe807bdaf6304a87e9893">
+        <dex dex="G:\OJTClient\OJTClient8.01\OJTClient8.0\app\build\intermediates\pre-dexed\release\classes_986acc18dcbb9cfdd33727aa765b4e9f3ba08dbf.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\.android\build-cache\120be0d282379f5151fa0eee7ee772e85bf53a77\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="bf824fe665610de96aff8241a49847cb1af1f061">
+        <dex dex="G:\OJTClient\OJTClient8.01\OJTClient8.0\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_feb05336d4bac587b0650477fa1f21fd836ca800\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\.android\build-cache\91f9562ef93b6e05739ca70b996f1bdf4713297b\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9b282792e2727abe41768c81e604600630a677dc">
+        <dex dex="G:\OJTClient\OJTClient8.01\OJTClient8.0\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ed06466ca5985342e9e85df60c90a54fc124b60b\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.3.0\support-annotations-23.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
+        <dex dex="G:\OJTClient\OJTClient8.01\OJTClient8.0\app\build\intermediates\pre-dexed\release\support-annotations-23.3.0_bfb9d5ff3f5eb9f336c7aee46583ae9a91f9121d.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\.android\build-cache\0b20db2c0d7dd9c5aa04bea449aed01b371da2c4\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8a034dd16c0dfd75fe86c52c2cd581592acc684a">
+        <dex dex="G:\OJTClient\OJTClient8.01\OJTClient8.0\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c1f0e3598373174d3f0e28520629cd7f2f01f6e5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\.android\build-cache\cb283b0621a957a64ae6a4ab4496fc72bcfdda6e\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f0001e71cea6ae432a00021c6f727f5ef0f3d27e">
+        <dex dex="G:\OJTClient\OJTClient8.01\OJTClient8.0\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d56b1d2c6e3e091abf6b3d085dc10e57d41c6f3d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="G:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.3.0\support-annotations-23.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
+        <dex dex="G:\OJTClient\OJTClient8.01\OJTClient8.0\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.3.0_bfb9d5ff3f5eb9f336c7aee46583ae9a91f9121d\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\user\.android\build-cache\120be0d282379f5151fa0eee7ee772e85bf53a77\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="bf824fe665610de96aff8241a49847cb1af1f061">
+        <dex dex="G:\OJTClient\OJTClient8.01\OJTClient8.0\app\build\intermediates\pre-dexed\release\classes_feb05336d4bac587b0650477fa1f21fd836ca800.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\user\.android\build-cache\91f9562ef93b6e05739ca70b996f1bdf4713297b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9b282792e2727abe41768c81e604600630a677dc">
+        <dex dex="G:\OJTClient\OJTClient8.01\OJTClient8.0\app\build\intermediates\pre-dexed\release\classes_ed06466ca5985342e9e85df60c90a54fc124b60b.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\.android\build-cache\8f5198dd4d0b4bb824a3c5301b95eb9a0520d184\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="322abfc902a9d673dacfe807bdaf6304a87e9893">
+        <dex dex="G:\OJTClient\OJTClient8.01\OJTClient8.0\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_986acc18dcbb9cfdd33727aa765b4e9f3ba08dbf\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\user\.android\build-cache\cb283b0621a957a64ae6a4ab4496fc72bcfdda6e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f0001e71cea6ae432a00021c6f727f5ef0f3d27e">
+        <dex dex="G:\OJTClient\OJTClient8.01\OJTClient8.0\app\build\intermediates\pre-dexed\release\classes_d56b1d2c6e3e091abf6b3d085dc10e57d41c6f3d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\user\.android\build-cache\78ada5e6b3222e246aac4db262c677b4ba8839c3\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="23be6993826b8fd88bbc8d14928bb3b8960d3d4e">
+        <dex dex="G:\OJTClient\OJTClient8.01\OJTClient8.0\app\build\intermediates\pre-dexed\release\classes_cbd7a12c4380e176b6db29afc1519f58b1ac6161.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\OJTClient\OJTClient8.01\OJTClient8.0\app\libs\google-play-services.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0f6d5c1ef2e982c3b7858408e3df389cf5d202da">
+        <dex dex="G:\OJTClient\OJTClient8.01\OJTClient8.0\app\build\intermediates\pre-dexed\debug\google-play-services_11672ed0e7c0f78fbfd4085456a299d4b336a39b.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\.android\build-cache\78ada5e6b3222e246aac4db262c677b4ba8839c3\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="23be6993826b8fd88bbc8d14928bb3b8960d3d4e">
+        <dex dex="G:\OJTClient\OJTClient8.01\OJTClient8.0\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_cbd7a12c4380e176b6db29afc1519f58b1ac6161\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\.android\build-cache\8646f594bc0c963a9c6a8e0baca0c936bde9e622\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a0b5d60246cd9d4f3f2443611b3b4c25265840b5">
+        <dex dex="G:\OJTClient\OJTClient8.01\OJTClient8.0\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_71180880c5bec831dc9d75945cc508722637db20\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\user\.android\build-cache\8646f594bc0c963a9c6a8e0baca0c936bde9e622\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a0b5d60246cd9d4f3f2443611b3b4c25265840b5">
+        <dex dex="G:\OJTClient\OJTClient8.01\OJTClient8.0\app\build\intermediates\pre-dexed\release\classes_71180880c5bec831dc9d75945cc508722637db20.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\.android\build-cache\88c096050cf6f01237ce5c3b92dcb2bb589b4186\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="debf30ce0a7560396b6235edef77e447006454c2">
+        <dex dex="G:\OJTClient\OJTClient8.01\OJTClient8.0\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f4812cfe5377b3341a6a486ee5957ca7d7119834\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\user\.android\build-cache\0b20db2c0d7dd9c5aa04bea449aed01b371da2c4\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8a034dd16c0dfd75fe86c52c2cd581592acc684a">
+        <dex dex="G:\OJTClient\OJTClient8.01\OJTClient8.0\app\build\intermediates\pre-dexed\release\classes_c1f0e3598373174d3f0e28520629cd7f2f01f6e5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\user\.android\build-cache\88c096050cf6f01237ce5c3b92dcb2bb589b4186\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="debf30ce0a7560396b6235edef77e447006454c2">
+        <dex dex="G:\OJTClient\OJTClient8.01\OJTClient8.0\app\build\intermediates\pre-dexed\release\classes_f4812cfe5377b3341a6a486ee5957ca7d7119834.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="G:\OJTClient\OJTClient8.01\OJTClient8.0\app\libs\google-play-services.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0f6d5c1ef2e982c3b7858408e3df389cf5d202da">
+        <dex dex="G:\OJTClient\OJTClient8.01\OJTClient8.0\app\build\intermediates\transforms\dex\debug\folders\1000\2\google-play-services_11672ed0e7c0f78fbfd4085456a299d4b336a39b\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\user\.android\build-cache\76ba3ab0e6c7d8fb7a5faf132f6ab613f8b88d67\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0c005cf2a2c9a42b661357c88ff518b663892098">
+        <dex dex="G:\OJTClient\OJTClient8.01\OJTClient8.0\app\build\intermediates\pre-dexed\release\classes_cfc829348a1307da8fbc6a260630dd92a9f25745.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\user\.android\build-cache\0c6eb49a1b8631b668426870e96ff07534e5e588\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4deabb955815793a7a2a81c4a4622e699592aadb">
+        <dex dex="G:\OJTClient\OJTClient8.01\OJTClient8.0\app\build\intermediates\pre-dexed\release\classes_e68daadccc8947461114d0633c4e9a1f96cf2f64.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\.android\build-cache\76ba3ab0e6c7d8fb7a5faf132f6ab613f8b88d67\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0c005cf2a2c9a42b661357c88ff518b663892098">
+        <dex dex="G:\OJTClient\OJTClient8.01\OJTClient8.0\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_cfc829348a1307da8fbc6a260630dd92a9f25745\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\user\.android\build-cache\0e5a60be3f26e9c65e240eadc8b7b7862c052ddc\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1b8e03daaa43fb0a4cd57e378167c2fd70454c1e">
+        <dex dex="G:\OJTClient\OJTClient8.01\OJTClient8.0\app\build\intermediates\pre-dexed\release\classes_81f192ec309d8e2e8a874163ab26af9a9fb65575.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\.android\build-cache\0e5a60be3f26e9c65e240eadc8b7b7862c052ddc\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1b8e03daaa43fb0a4cd57e378167c2fd70454c1e">
+        <dex dex="G:\OJTClient\OJTClient8.01\OJTClient8.0\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_81f192ec309d8e2e8a874163ab26af9a9fb65575\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\.android\build-cache\0c6eb49a1b8631b668426870e96ff07534e5e588\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4deabb955815793a7a2a81c4a4622e699592aadb">
+        <dex dex="G:\OJTClient\OJTClient8.01\OJTClient8.0\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e68daadccc8947461114d0633c4e9a1f96cf2f64\classes.dex" />
+    </item>
+
+</items>

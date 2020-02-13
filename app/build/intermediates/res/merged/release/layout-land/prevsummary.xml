@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+    <TextView
+        android:id="@+id/headingtxt"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/menutopbarbg"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="@string/preauditsummary_headingtxt_text"
+        android:textColor="@color/headingtxt_textcolor"
+        android:textSize="@dimen/headingtxt_textsize" />
+    <RelativeLayout
+        android:id="@+id/auditsummaryrelative"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/headingtxt"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/menu" >
+         <TextView
+             android:id="@+id/auditedbytxt"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignParentLeft="true"
+             android:layout_marginLeft="15dp"
+             android:layout_marginTop="12dp"
+             android:text="Audited By    : "
+             android:textColor="@color/datetxt_textcolor"
+             android:textSize="@dimen/datetxt_textsize" />
+        <TextView
+            android:id="@+id/datetxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/auditedbytxt"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="7dp"
+            android:text="Audited Date : "
+            android:textColor="@color/datetxt_textcolor"
+            android:textSize="@dimen/datetxt_textsize" />
+        <TextView
+            android:id="@+id/timetxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="40dp"
+            android:text="Audited Time : "
+            android:textColor="@color/timetxt_textcolor"
+            android:textSize="@dimen/timetxt_textsize" />
+    </RelativeLayout>
+    <ScrollView
+        android:id="@+id/auditsummaryscroll"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="60dp"
+        android:layout_marginTop="80dp"
+        android:fadeScrollbars="false"
+        android:paddingTop="90dp"
+        android:scrollbarStyle="outsideOverlay" >
+        <LinearLayout
+            android:id="@+id/summarymainlinear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:paddingBottom="20dp"
+            android:orientation="vertical">
+				<TableRow
+				    android:id="@+id/overallclrlinear"
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:layout_marginRight="100dp"
+				    android:orientation="horizontal"
+				    android:weightSum="3" >
+                <TextView
+			        android:id="@+id/preoverallclrlbltxt"
+			        android:layout_width="0dp"
+			        android:layout_weight="1.3"
+			        android:layout_height="40dp"
+			        android:gravity="center_vertical"
+			        android:text="@string/preoverallclrlbltxt_text"
+			        android:textColor="@color/preoverallclrlbltxt_textcolor"
+			        android:textSize="@dimen/preoverallclrlbltxt_textsize" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.4"
+                    android:gravity="center_vertical"
+                    android:text=" : "
+                   	android:textColor="@color/preoverallclrlbltxt_textcolor"
+		        	android:textSize="@dimen/preoverallclrlbltxt_textsize"  />
+                <TextView
+			        android:id="@+id/preoverallclrtxt"
+			        android:layout_width="0dp"
+			        android:layout_height="30dp"
+			        android:layout_weight="1.0"
+			        android:layout_gravity="center_vertical"
+			        android:layout_marginLeft="32dp"/>
+            </TableRow>
+	            <LinearLayout
+	                android:id="@+id/summarylinear"
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                android:layout_marginTop="10dp"
+	                android:orientation="vertical" >
+	            </LinearLayout>
+	             <TableLayout
+	                 android:layout_width="match_parent"
+	                 android:layout_height="wrap_content"
+	                 android:layout_marginRight="100dp"
+	                 android:layout_marginTop="10dp" >
+                <TableRow
+                    android:id="@+id/attituderow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:weightSum="3" >
+                    <TextView
+	                    android:id="@+id/preattitudelbltxt"
+	                    android:layout_width="0dp"
+	                    android:layout_height="40dp"
+	                    android:layout_weight="1.3"
+	                    android:gravity="center_vertical"
+	                    android:text="@string/preattitudelbltxt_text"
+	                    android:textColor="@color/preattitudelbltxt_textcolor"
+	                    android:textSize="@dimen/preattitudelbltxt_textsize" />
+                    <TextView
+	                    android:layout_width="0dp"
+	                    android:layout_height="40dp"
+	                    android:layout_weight="0.4"
+	                    android:gravity="center_vertical"
+	                    android:text=" : "
+	                    android:textColor="@color/preattitudelbltxt_textcolor"
+	                    android:textSize="@dimen/preattitudelbltxt_textsize" />
+	                <TextView
+	                    android:id="@+id/preattitudetxt"
+	                    android:layout_width="0dp"
+	                    android:layout_weight="1.3"
+	                    android:layout_height="40dp"
+	                    android:gravity="center_vertical"
+	                    android:textColor="@color/preattitudetxt_textcolor"
+	                    android:textSize="@dimen/preattitudetxt_textsize" />
+                </TableRow>
+                <TableRow
+                    android:id="@+id/preattitudeclrrow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:weightSum="3" >
+                    <TextView
+	                    android:id="@+id/preattitudeclrlbltxt"
+	                    android:layout_width="0dp"
+	                    android:layout_height="40dp"
+	                    android:gravity="center_vertical"
+	                    android:layout_weight="1.3"
+	                    android:text="@string/preattitudeclrlbltxt_text"
+	                    android:textColor="@color/preattitudeclrlbltxt_textcolor"
+	                    android:textSize="@dimen/preattitudeclrlbltxt_textsize"  />
+                    <TextView
+	                    android:layout_width="0dp"
+	                    android:layout_height="40dp"
+	                    android:layout_weight="0.4"
+	                    android:gravity="center_vertical"
+	                    android:text=" : "
+	                    android:textColor="@color/preattitudeclrlbltxt_textcolor"
+	                    android:textSize="@dimen/preattitudeclrlbltxt_textsize" />
+	                <TextView
+	                    android:id="@+id/preattitudeclrtxt"
+	                    android:layout_width="0dp"
+	                    android:layout_weight="1.0"
+	                    android:layout_height="40dp"/>
+	             </TableRow>
+                 <TableRow
+                     android:id="@+id/premlearningrow"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_marginTop="10dp"
+                     android:weightSum="3" >
+                    <TextView
+	                    android:id="@+id/premlearninglbltxt"
+	                    android:layout_width="0dp"
+	                    android:layout_height="40dp"
+	                    android:layout_weight="1.3"
+	                    android:gravity="center_vertical"
+	                    android:text="@string/premlearninglbltxt_text"
+	                    android:textColor="@color/premlearninglbltxt_textcolor"
+	                    android:textSize="@dimen/premlearninglbltxt_textsize"  />
+                    <TextView
+	                    android:layout_width="0dp"
+	                    android:layout_height="40dp"
+	                    android:layout_weight="0.4"
+	                    android:text=" : "
+	                    android:gravity="center_vertical"
+	                    android:textColor="@color/premlearninglbltxt_textcolor"
+	                    android:textSize="@dimen/premlearninglbltxt_textsize" />
+	                <TextView
+	                    android:id="@+id/premlearningtxt"
+	                    android:layout_width="0dp"
+	                    android:layout_weight="1.3"
+	                    android:layout_height="wrap_content"
+	                    android:maxLength="155"
+	                    android:textColor="@color/premlearningtxt_textcolor"
+	                    android:textSize="@dimen/premlearningtxt_textsize" />
+                </TableRow>
+                 <TableRow
+                     android:id="@+id/precommentsrow"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_marginTop="10dp"
+                     android:weightSum="3" >
+                    <TextView
+	                    android:id="@+id/precommentslbltxt"
+	                    android:layout_width="0dp"
+	                    android:layout_height="40dp"
+	                    android:gravity="center_vertical"
+	                    android:layout_weight="1.3"
+	                    android:text="@string/precommentslbltxt_text"
+	                    android:textColor="@color/precommentslbltxt_textcolor"
+	                    android:textSize="@dimen/precommentslbltxt_textsize"  />
+                    <TextView
+	                    android:layout_width="0dp"
+	                    android:layout_height="40dp"
+	                    android:gravity="center_vertical"
+	                    android:layout_weight="0.4"
+	                    android:text=" : "
+	                    android:textColor="@color/precommentslbltxt_textcolor"
+	                    android:textSize="@dimen/precommentslbltxt_textsize"  />
+	                <TextView
+	                    android:id="@+id/premcommentstxt"
+	                    android:layout_width="0dp"
+	                    android:layout_weight="1.3"
+	                    android:layout_height="80dp"
+	                    android:maxLength="150"
+	                    android:scrollbars="vertical"
+	                    android:textColor="@color/precommentstxt_textcolor"
+	                    android:textSize="@dimen/precommentstxt_textsize"  />
+                </TableRow>
+            </TableLayout>
+         </LinearLayout>
+    </ScrollView>
+    <RelativeLayout
+        android:id="@+id/footerrelative"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/footerbg" >
+        <Button
+            android:id="@+id/backbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/backbtn"/>
+         <Button
+            android:id="@+id/auditbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/auditbtn"
+            android:text="" />
+         <Button
+            android:id="@+id/nextbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/nextbtn"
+            />
+    </RelativeLayout>
+</RelativeLayout>

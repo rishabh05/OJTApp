@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ojt.notification"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="23" />
+
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" />
+    <!-- GCM requires a Google account. -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <!-- Keeps the processor from sleeping when a message is received. -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <!--
+     Creates a custom permission so only this app can receive its messages.
+
+     NOTE: the permission *must* be called PACKAGE.permission.C2D_MESSAGE,
+           where PACKAGE is the application's package name.
+    -->
+    <permission
+        android:name="com.ojt.notification.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.ojt.notification.permission.C2D_MESSAGE" />
+    <!-- This app has permission to register and receive data message. -->
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/app_icon"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Light.NoTitleBar" >
+        <activity
+            android:name="com.ojt.login.Login"
+            android:configChanges="orientation|screenLayout|screenSize"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="adjustResize|stateVisible|adjustPan" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.ojt.home.Home"
+            android:configChanges="orientation|screenLayout|screenSize"
+            android:windowSoftInputMode="adjustResize|adjustPan" >
+        </activity>
+        <activity
+            android:name="com.ojt.baaudit.BAAuditForm"
+            android:configChanges="orientation|screenLayout|screenSize"
+            android:windowSoftInputMode="adjustPan|stateAlwaysHidden" >
+        </activity>
+        <activity
+            android:name="com.ojt.baaudit.BASearch"
+            android:configChanges="orientation|screenLayout|screenSize"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.ojt.readyreckoner.BAList"
+            android:windowSoftInputMode="adjustPan|adjustResize" />
+        <activity android:name="com.ojt.baaudit.BASearchData" />
+        <activity android:name="com.ojt.readyreckoner.ReadyReckonerData" />
+        <activity
+            android:name="com.ojt.baaudit.BAAuditScore"
+            android:configChanges="orientation|screenLayout|screenSize"
+            android:windowSoftInputMode="adjustResize|adjustPan" />
+        <activity
+            android:name="com.ojt.readyreckoner.ReadyReckoner"
+            android:screenOrientation="sensor"
+            android:windowSoftInputMode="adjustResize|adjustPan" >
+        </activity>
+        <activity
+            android:name="com.ojt.baaudit.BASummary"
+            android:configChanges="orientation|screenLayout|screenSize"
+            android:windowSoftInputMode="adjustPan|stateAlwaysHidden" >
+        </activity>
+        <activity
+            android:name="com.ojt.baaudit.PendingAudits"
+            android:configChanges="orientation|screenLayout|screenSize"
+            android:windowSoftInputMode="adjustPan|stateAlwaysHidden" >
+        </activity>
+        <activity
+            android:name="com.ojt.baaudit.BAPrevSummary"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity android:name="com.ojt.configscreen.ConfigScreen" />
+        <activity
+            android:name="com.ojt.training.Training"
+            android:windowSoftInputMode="adjustPan|adjustResize" />
+        <activity android:name="com.ojt.training.TrainingDes" />
+
+        <receiver
+            android:name="com.ojt.service.PushReceiver"
+            android:enabled="true" />
+        <receiver
+            android:name="com.ojt.service.Receiver"
+            android:enabled="true" >
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+                <action android:name="android.net.wifi.STATE_CHANGE" />
+            </intent-filter>
+        </receiver>
+        <!--
+          BroadcastReceiver that will receive intents from GCM
+          services and handle them to the custom IntentService.
+
+          The com.google.android.c2dm.permission.SEND permission is necessary
+          so only GCM services can send data messages for the app.
+        -->
+        <receiver
+            android:name="com.google.android.gcm.GCMBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+
+                <!-- Receives the actual messages. -->
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <!-- Receives the registration id. -->
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+
+                <category android:name="com.ojt.notification" />
+            </intent-filter>
+        </receiver>
+        <!-- Widget Receiver -->
+        <!--
+          Application-specific subclass of GCMBaseIntentService that will
+          handle received messages.
+
+          By default, it must be named .GCMIntentService, unless the
+          application uses a custom BroadcastReceiver that redefines its name.
+        -->
+        <service android:name="com.ojt.notification.GCMIntentService" />
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="9162d0935e808f8bfc2f060024859d61d5eeac77" />
+
+        <provider
+            android:name="com.crashlytics.android.CrashlyticsInitProvider"
+            android:authorities="com.ojt.notification.crashlyticsinitprovider"
+            android:exported="false"
+            android:initOrder="90" />
+    </application>
+
+</manifest>

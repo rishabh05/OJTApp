@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">OJT</string>
+    <string name="loading_text">Loading..</string>
+    <string name="server_url">https://lakmeojt.in:6443/ojt/</string>   
+    <string name="gps_timeout">20</string>   
+    <string name="higher_priority_mid1">6000</string>   
+    <string name="higher_priority_mid2">4000</string>
+    <string name="no_score_mid">12000</string>
+    <string name="exit_msg">Do you want to Exit?</string>
+    <string name="success_msg">Audit Submiting in background. Submit fail will move this audit to Pending Audit section.</string>
+    <string name="failure_msg">No Network Connection. Audit Info will be submitted automatically once Network is available.</string>
+    <string name="no_BA">No BA Found.</string>
+    <string name="ok_msg">OK</string>
+    <string name="cancel_msg">Cancel</string>
+    <string name="no_network">No Network Connection. Please try again later.</string>
+    <string name="server_error">Server Error.</string>
+    <string name="sdcard_full">Memory unavailable to store this Content.</string>
+    <string name="no_file">No File Found.</string>
+    <string name="low_network">Please check your Network Connection.</string>
+    <string name="insufficent_memory">Insufficient memory for data storage.</string>
+    
+    <!-- Login -->        
+ 	   <string name="login_headingtxt_text">LOGIN</string>
+ 	   <string name="usernameedttext_hinttext">Username</string>
+ 	   <string name="passwordedttext_hinttext">Password</string>
+ 	   <string name="loginbtn_text">Submit</string>
+       <string name="invalid_user_pwd">Invalid Username or Password.</string>
+       <string name="empty_user">Please enter the Username.</string>
+       <string name="empty_pwd">Please enter the Password.</string>
+       <string name="company_name">Lakme</string>
+       <string name="device_unregister">Unable to register the device on server.\nHence Training Content cannot be received.</string>
+    <!-- BA Search -->
+   	   <string name="empty_ba">Please enter the PBID.</string>
+   	   <string name="lookupbtn_text">Look Up</string>
+   	   <string name="invalid_audit">Invalid PBID. </string>
+   	   <string name="geo_failure">Application is unable to get the Geo Location coordinates.
+   	        \nAn Audit cannot be started without Geo Location. \nPlease move to an Area of connectivity
+           and try again.  </string>
+       <string name="basearch_headingtxt_text">BA Search</string>
+       <string name="basearchedttxt_hinttext">PBID</string>
+       <string name="baokbtn_text">OK</string>
+       <string name="bacancelbtn_text">Cancel</string>
+       <string name="baimgcaptxt_text">Image Capture</string>
+       <string name="access_geo">Accessing Geo Location</string>
+       <string name="no_gps">GPS is not enabled. Do you want to goto settings menu?</string>
+       <string name="unsaved_audit">Do you want to continue with Unsaved Audit Info?</string>
+       <string name="delete_unsavedaudit">The Unsaved Audit Info will be lost. \n Please Confirm.</string>
+       
+    <!-- ReadyReckoner -->
+   	   <string name="empty_readyrec">Please enter the Store Code or Counter Name.</string>
+   	   <string name="baauditbtn_text">BA Audit</string>
+       <string name="readyrec_text">Ready Reckoner</string>
+       <string name="trainingbtn_text">Training</string>
+        <string name="pendingauditbtn_text">Pending Audit</string>
+       <string name="invalid_readyrec">Invalid Store Code or Counter Name. </string>
+       <string name="readyrec_headingtxt_text">READY RECKONER SEARCH</string>
+       <string name="readyrecedttxt_hinttext">Store Code or Counter Name</string>
+       <string name="bainfotxt_text">BA Info</string>
+       <string name="readyrecinfotxt_text">Ready Reckoner Info</string>
+       <string name="prevauditinfotxt_text">Previous Audit Info</string>
+       <string name="lastauditscoretxt_text">Previous Audit Score</string>
+       <string name="auditsummarytxt_text">Previous Audit Summary</string>
+    <!-- Config -->
+       <string name="versionlbltxt_text">Version</string>
+   	   <string name="timeoutlbltxt_text">Idle Timeout</string>
+   	   <string name="config_headingtxt_text">CONFIG</string>
+   	   
+    <!-- Home -->
+     	<string name="home_headingtxt_text">MENU</string>
+    <!-- Audit Summary -->
+       <string name="preauditsummary_headingtxt_text">PREVIOUS AUDIT SUMMARY</string>
+       <string name="auditsummary_headingtxt_text">CURRENT AUDIT SUMMARY</string>
+       <string name="basubmitbtn_msg">Audit will be locked once it is submitted.
+           \nHave you coached / taken corrective action?
+           \n!! ONCE READY TO SUBMIT, PLEASE MAKE SURE YOU HAVE A GOOD NETWORK CONNECTION !!
+           \nAre you ready to submit?</string>
+       <string name="yes_msg">Yes</string>
+       <string name="no_msg">No</string>
+       <string name="empty_attitude">Please select Attitude.</string>
+       <string name="commentstxt_text">Comments : </string>
+       <string name="mlearningtxt_text">Mlearning mins per day : </string>
+       <string name="fairradio_text">Fair</string>
+       <string name="goodradio_text">Good</string>
+       <string name="vgoodradio_text">Very Good</string>
+       <string name="bapicttxt_text">BA\'s Picture</string>
+       <string name="basignlbltxt_text">BA\'s Signature</string>
+       <string name="basumitbtntxt_text">Submit</string>
+       <string name="no_sdcard">Please insert SD Card.</string>
+       <string name="empty_sign">Signature Please!</string>
+       <string name="summaryclearbtn_text">Clear</string>
+       <string name="auditloss_msg">Current Audit Info will be lost. \nDo you want to Proceed?</string>
+       <string name="auditempty_msg">Current Audit Info is empty. \nDo you want to continue with New Audit?</string>
+       <string name="attitudetxt_text">Attitude : </string>
+       <string name="preattitudelbltxt_text">Attitude</string>
+       <string name="preattitudeclrlbltxt_text">Attitude Color Grade</string>
+       <string name="preoverallclrlbltxt_text">Overall Color Grade</string>
+       <string name="overallclrlbltxt_text">Overall Color Grade : </string>
+       <string name="premlearninglbltxt_text">Mlearning mins per day</string>
+       <string name="precommentslbltxt_text">Comments</string>
+         
+    <!-- Audit Score --> 
+       <string name="auditscore_headingtxt_text">PREVIOUS AUDIT SCORE</string>
+    <!-- BA List -->
+       <string name="balist_headingtxt_text">BA(s) INFORMATION</string>
+       <string name="nobatxt_text">No BA Found.</string>
+   	<!-- Audit Form -->
+       <string name="auditform_headingtxt_text">CURRENT AUDIT FORM</string>
+       <string name="form_trainingbtn_text">Training</string>
+       <string name="empty_remarks">Remarks cannot be blank.</string>
+           
+    <!-- Training -->
+    	
+    	<string name="training_nodatatxt_text">No Training Content Found.</string>
+    	<string name="training_headingtxt_text">Training</string>
+    	<string name="content_expired">Content has expired.</string>
+        <string name="no_pdfdoc_found">PDF or Document viewer not found.</string>
+    <!-- Database -->
+	    <string name="db_name">ojtapplication_database6</string>
+	    <string name="login_table">login</string>
+	    <string name="auditdata_table">audit</string>
+	    <string name="mainsection_table">mainsection</string>
+	    <string name="subsection_table">subsection</string> 	
+	  
+    <!-- Color code  --> 	
+   		<color name="usernameedttext_textcolor">#ffffff</color>
+    	<color name="passwordedttext_textcolor">#ffffff</color>
+    	<color name="headingtxt_textcolor">#ffffff</color>
+    	<color name="basearchedttxt_textcolor">#ffffff</color>
+    	<color name="basearchedttxt_texthintcolor">#ccccff</color>
+    	<color name="lookupbtn_textcolor">#ffffff</color>
+  	    <color name="baimgcaptxt_textcolor">#ffffff</color>
+  	    <color name="configtxt_textcolor">#000000</color>
+    	<color name="datetxt_textcolor">#ffffff</color>
+     	<color name="timetxt_textcolor">#ffffff</color>
+     	<color name="commentstxt_textcolor">#000000</color>
+     	<color name="fairradio_textcolor">#000000</color>
+     	<color name="goodradio_textcolor">#000000</color>
+     	<color name="vgoodradio_textcolor">#000000</color>
+     	<color name="attitudetxt_textcolor">#000000</color>
+     	<color name="bapicttxt_textcolor">#ffffff</color>
+     	<color name="basignlbltxt_textcolor">#ffffff</color>
+     	<color name="baauditbtn_textcolor">#ffffff</color>
+     	<color name="readyrecbtn_textcolor">#ffffff</color>
+     	<color name="trainingbtn_textcolor">#ffffff</color>
+     	<color name="msgcounttxt_textcolor">#ffffff</color>
+     	<color name="msgcounthmetxt_textcolor">#000000</color>
+     	<color name="listrow_nametxt_textcolor">#000000</color>
+     	<color name="listrow_idtxt_textcolor">#000000</color>
+     	<color name="form_datatxt_textcolor">#000000</color>
+     	<color name="form_dataheadingtxt_textcolor">#ffffff</color>
+     	<color name="summary_datatxt_textcolor">#000000</color>
+     	<color name="rec_datatxt_textcolor">#ffffff</color>
+     	<color name="baaudit_heading_textcolor">#ffffff</color>
+     	<color name="basearch_data_textcolor">#000000</color>
+     	<color name="basearch_data_heading_textcolor">#ffffff</color>
+     	<color name="summary_data_heading_textcolor">#000000</color>
+     	<color name="usernameedttext_hint_textcolor">#ffffff</color>
+ 	    <color name="passwordedttext_hint_textcolor">#ffffff</color>
+ 	    <color name="basearchedttxt_hint_textcolor">#ffffff</color>
+ 	    <color name="readyrec_data_textcolor">#000000</color>
+ 	    <color name="cmpny_textcolor">#000000</color>
+ 	    <color name="form_trainingbtn_textcolor">#000000</color>
+ 	    <color name="mlearningtxt_textcolor">#000000</color>
+ 	    <color name="trainingtext_textcolor">#000000</color>
+ 	    <color name="premlearninglbltxt_textcolor">#000000</color>
+ 	    <color name="premlearningtxt_textcolor">#000000</color>
+ 	    <color name="preattitudeclrlbltxt_textcolor">#000000</color>
+ 	    <color name="preoverallclrlbltxt_textcolor">#000000</color>
+ 	    <color name="overallclrlbltxt_textcolor">#000000</color>
+ 	    <color name="preattitudelbltxt_textcolor">#000000</color>
+ 	    <color name="preattitudetxt_textcolor">#000000</color>
+ 	    <color name="precommentslbltxt_textcolor">#000000</color>
+ 	    <color name="precommentstxt_textcolor">#000000</color>
+ 	    <color name="nodatatxt_textcolor">#000000</color>
+ 	    <color name="refedttxt_textcolor">#000000</color>
+ 	    <color name="basignlinear_bgcolor">#F5FFFA</color>
+ 	    <color name="nobatxt_textcolor">#000000</color>
+ 	   
+     <string name="strredclrmin">0</string>
+     <string name="strredclrmax">4</string>
+     <string name="stryellowclrmin">5</string>
+     <string name="stryellowclrmax">8</string>
+     <string name="strgreenclrmin">9</string>
+    
+ </resources>

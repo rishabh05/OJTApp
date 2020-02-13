@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/trainingmainlayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    <LinearLayout 
+        android:id="@+id/headinglinear"
+        android:layout_width="fill_parent"
+    	android:layout_height="60dp"
+    	android:weightSum="2"
+    	android:orientation="horizontal"
+    	android:background="@drawable/menutopbarbg">
+    <TextView
+        android:id="@+id/headingtxt"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_weight="1.8"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="@string/training_headingtxt_text"
+        android:textColor="@color/headingtxt_textcolor"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="@dimen/headingtxt_textsize"/>
+    <Button
+        android:id="@+id/refreshbtn"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_weight="0.12"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/refresh" />
+    </LinearLayout> 
+    <TextView
+        android:id="@+id/nodatatxt"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:textStyle="bold"
+        android:text="@string/training_nodatatxt_text"
+        android:textColor="@color/nodatatxt_textcolor"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="@dimen/nodatatxt_textsize"/>
+    <EditText
+        android:id="@+id/searchedttxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/headinglinear"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/search"
+        android:ems="10"
+        android:paddingLeft="20dp"
+        android:paddingRight="130dp"
+        android:singleLine="true" >
+        <requestFocus />
+    </EditText>
+    <ListView
+        android:id="@+id/searchlist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/searchedttxt"
+        android:isScrollContainer="false"
+        android:scrollbarStyle="outsideOverlay"
+        android:layout_marginBottom="65dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp" >
+    </ListView>
+    <RelativeLayout
+        android:id="@+id/RelativeLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/footerbg" >
+        <Button
+            android:id="@+id/backbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/backbtn"
+            android:text="" />
+    </RelativeLayout>
+</RelativeLayout>

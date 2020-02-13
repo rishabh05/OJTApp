@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutbg"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background" >
+    <TextView
+        android:id="@+id/headingtxt"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/menutopbarbg"
+        android:gravity="center"
+        android:text="Pending Audits"
+        android:textColor="@color/headingtxt_textcolor"
+        android:textSize="@dimen/headingtxt_textsize"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:id="@+id/linearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/subbg"
+        android:orientation="vertical">
+
+        <ListView
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </ListView>
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_alignBaseline="@+id/basearchactxt"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.5"
+            android:background="@drawable/lookupbtn"
+            android:text="Submit"
+            android:textSize="@dimen/lookupbtn_textsize"
+            android:textColor="@color/lookupbtn_textcolor" />
+
+    </LinearLayout>
+</RelativeLayout>

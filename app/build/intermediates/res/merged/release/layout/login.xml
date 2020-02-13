@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutbg"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:id="@+id/loginlinear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/subbg"
+        android:orientation="vertical"
+        android:paddingBottom="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="20dp" >
+        <TextView
+            android:id="@+id/headingtxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:text="@string/login_headingtxt_text"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="@dimen/headingtxt_textsize"
+            android:textStyle="bold" />
+        <EditText
+            android:id="@+id/usernameedttext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/usernameedttext"
+            android:ems="10"
+            android:hint="@string/usernameedttext_hinttext"
+            android:maxLength="150"
+            android:paddingLeft="65dp"
+            android:paddingRight="15dp"
+            android:singleLine="true"
+            android:textColor="@color/usernameedttext_textcolor"
+            android:textColorHint="@color/usernameedttext_hint_textcolor"
+            android:textSize="@dimen/usernameedttext_textsize" >
+            <requestFocus />
+        </EditText>
+        <EditText
+            android:id="@+id/passwordedttext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/passwordedttext"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:maxLength="50"
+            android:paddingLeft="65dp"
+            android:paddingRight="15dp"
+            android:singleLine="true"
+            android:hint="@string/passwordedttext_hinttext"
+            android:textColorHint="@color/passwordedttext_hint_textcolor"
+            android:textColor="@color/passwordedttext_textcolor"
+            android:textSize="@dimen/passwordedttext_textsize" />
+
+        <Button
+            android:id="@+id/loginbtn"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_alignEnd="@+id/loginlinear"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/btnbg"
+            android:text="@string/loginbtn_text"
+            android:textColor="@color/lookupbtn_textcolor"
+            android:textSize="@dimen/loginbtn_textsize" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/cmpnyimg"
+        android:layout_width="400dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp"
+        android:text="@string/company_name"
+        android:textColor="@color/cmpny_textcolor"
+        android:textSize="@dimen/cmpny_textsize"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+</RelativeLayout>

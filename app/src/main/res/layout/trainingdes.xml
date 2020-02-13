@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background" >
+    <ImageView
+        android:id="@+id/trainingExpandimg"
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_centerVertical="true"
+        android:src="@drawable/app_icon" />
+     <RelativeLayout
+         android:layout_width="match_parent"
+         android:layout_height="600dp"
+         android:layout_centerVertical="true"
+         android:layout_marginLeft="10dp"
+         android:layout_marginRight="10dp">
+        <VideoView
+	    android:id="@+id/trainingvideo"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_alignParentTop="true"
+	    android:layout_alignParentBottom="true"
+	    android:layout_alignParentLeft="true"
+	    android:layout_alignParentRight="true"
+	    android:layout_centerInParent="true"/>
+	     <Button
+	         android:id="@+id/playbtn"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:layout_centerInParent="true"
+	         android:background="@drawable/play"/>
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/trainingDesctxt"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@id/trainingExpandimg"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/footerbg"
+        android:layout_alignParentBottom="true" >
+        <Button
+            android:id="@+id/backbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/backbtn"/>
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/headingtxt"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/menutopbarbg"
+        android:gravity="center"
+        android:text="@string/training_headingtxt_text"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/headingtxt_textcolor"
+        android:textSize="@dimen/headingtxt_textsize"
+        android:textStyle="bold" />
+</RelativeLayout>

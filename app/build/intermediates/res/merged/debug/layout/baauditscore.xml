@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+    <TextView
+        android:id="@+id/headingtxt"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/menutopbarbg"
+        android:gravity="center"
+        android:text="@string/auditscore_headingtxt_text"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/headingtxt_textcolor"
+        android:textSize="@dimen/headingtxt_textsize"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:id="@+id/auditscorerelative"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/headingtxt"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/menu" >
+
+         <TextView
+             android:id="@+id/auditedbytxt"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignParentLeft="true"
+             android:layout_marginLeft="15dp"
+             android:layout_marginTop="10dp"
+             android:text="Audited By    : "
+             android:textColor="@color/datetxt_textcolor"
+             android:textSize="@dimen/datetxt_textsize" />
+        <TextView
+            android:id="@+id/datetxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/auditedbytxt"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:text="Audited Date : "
+            android:textColor="@color/datetxt_textcolor"
+            android:textSize="@dimen/datetxt_textsize" />
+        <TextView
+            android:id="@+id/timetxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="45dp"
+            android:text="Audited Time : "
+            android:textColor="@color/timetxt_textcolor"
+            android:textSize="@dimen/timetxt_textsize" />
+    </RelativeLayout>
+
+	<LinearLayout
+	    android:id="@+id/headinglinear"
+	    android:layout_width="match_parent"
+	    android:layout_height="40dp"
+	    android:layout_marginLeft="8dp"
+	    android:layout_marginRight="8dp"
+	    android:layout_marginTop="145dp"
+	    android:background="@drawable/menu"
+	    android:orientation="horizontal" >
+
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/auditformscroll"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="70dp"
+        android:layout_marginTop="60dp"
+        android:fadeScrollbars="false"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingTop="125dp"
+        android:scrollbarStyle="outsideOverlay" >
+
+        <LinearLayout
+            android:id="@+id/auditformlinear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp"
+            android:orientation="vertical" >
+        </LinearLayout>
+    </ScrollView>
+   <RelativeLayout
+        android:id="@+id/footerrelative"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/footerbg" >
+         <Button
+            android:id="@+id/backbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/backbtn"/>
+         <Button
+            android:id="@+id/auditbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/auditbtn"
+            android:text="" />
+    </RelativeLayout>
+</RelativeLayout>

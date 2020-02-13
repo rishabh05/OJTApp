@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutbg"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+    <TextView
+        android:id="@+id/headingtxt"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/menutopbarbg"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="@string/auditsummary_headingtxt_text"
+        android:textColor="@color/headingtxt_textcolor"
+        android:textSize="@dimen/headingtxt_textsize" />
+    <RelativeLayout
+        android:id="@+id/auditsummaryrelative"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/headingtxt"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/menu" >
+        <TextView
+            android:id="@+id/datetxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="25dp"
+            android:textColor="@color/datetxt_textcolor"
+            android:textSize="@dimen/datetxt_textsize" />
+        <TextView
+            android:id="@+id/timetxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="25dp"
+            android:textColor="@color/timetxt_textcolor"
+            android:textSize="@dimen/timetxt_textsize" />
+    </RelativeLayout>
+   <ScrollView
+       android:id="@+id/auditsummaryscroll"
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent"
+       android:layout_alignParentLeft="true"
+       android:layout_marginBottom="60dp"
+       android:layout_marginTop="130dp"
+       android:fadeScrollbars="false"
+       android:isScrollContainer="false"
+       android:scrollbarStyle="outsideOverlay" >
+        <LinearLayout
+            android:id="@+id/summarymainlinear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:paddingBottom="20dp"
+            android:orientation="vertical" >
+				 <LinearLayout
+                android:id="@+id/overallclrlinear"
+                android:layout_width="match_parent"
+                android:layout_height="50dp" 
+                android:orientation="horizontal">
+                <TextView
+			        android:id="@+id/overallclrlbltxt"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_marginLeft="0dp"
+			        android:layout_gravity="center_vertical"
+			        android:text="@string/overallclrlbltxt_text"
+			        android:textColor="@color/overallclrlbltxt_textcolor"
+			        android:textSize="@dimen/overallclrlbltxt_textsize" />
+                <TextView
+			        android:id="@+id/overallclrtxt"
+			        android:layout_width="150dp"
+			        android:layout_height="40dp"
+			        android:layout_gravity="center_vertical"
+			        android:layout_marginLeft="32dp"/>
+            </LinearLayout>
+	            <LinearLayout
+		            android:id="@+id/summarylinear"
+		            android:layout_width="match_parent"
+		            android:layout_height="wrap_content"
+		            android:orientation="vertical">
+	            </LinearLayout>
+	            <LinearLayout
+	                android:id="@+id/attitudelinear"
+	                android:layout_width="match_parent"
+	                android:layout_height="60dp"
+	                android:layout_marginRight="20dp"
+	                android:orientation="horizontal" >
+		            <TextView
+		                android:id="@+id/attitudetxt"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:layout_gravity="center"
+		                android:text="@string/attitudetxt_text"
+		                android:textColor="@color/attitudetxt_textcolor"
+		                android:textSize="@dimen/attitudettxt_textsize" />
+		            <RadioGroup
+				        android:id="@+id/attituderg"
+				        android:layout_width="match_parent"
+				        android:layout_height="match_parent"
+				        android:layout_marginLeft="20dp"
+				        android:orientation="horizontal" >
+				        <RadioButton
+				            android:id="@+id/fairradio"
+				            android:layout_width="wrap_content"
+				            android:layout_height="wrap_content"
+				            android:layout_gravity="center_vertical"
+				            android:text="@string/fairradio_text"
+				            android:button="@drawable/radiostyle"
+				            android:textColor="@color/fairradio_textcolor"
+				            android:textSize="@dimen/fairradio_textsize" >
+				        </RadioButton>
+				        <RadioButton
+				            android:id="@+id/goodradio"
+				            android:layout_width="wrap_content"
+				            android:layout_height="wrap_content"
+				            android:layout_gravity="center_vertical"
+				            android:layout_marginLeft="20dp"
+				            android:button="@drawable/radiostyle"
+				            android:text="@string/goodradio_text"
+				            android:textColor="@color/goodradio_textcolor"
+				            android:textSize="@dimen/goodradio_textsize" >
+				        </RadioButton>
+				        <RadioButton
+				            android:id="@+id/vgoodradio"
+				            android:layout_width="wrap_content"
+				            android:layout_height="wrap_content"
+				            android:layout_gravity="center_vertical"
+				            android:layout_marginLeft="25dp"
+				            android:button="@drawable/radiostyle"
+				            android:text="@string/vgoodradio_text"
+				            android:textColor="@color/vgoodradio_textcolor"
+				            android:textSize="@dimen/vgoodradio_textsize" >
+				        </RadioButton>
+    				</RadioGroup>
+	            </LinearLayout>
+	            <LinearLayout
+	                android:id="@+id/mlearninglinear"
+	                android:layout_width="match_parent"
+	                android:layout_height="50dp"
+	                android:orientation="horizontal" >
+                <TextView
+                android:id="@+id/mlearningtxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="@string/mlearningtxt_text"
+                android:textColor="@color/mlearningtxt_textcolor"
+                android:textSize="@dimen/mlearningtxt_textsize" />
+                <EditText
+                    android:id="@+id/mlearningedttxt"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="25dp"
+                    android:ems="10"
+                    android:inputType="number"
+                    android:maxLength="4"
+                    android:singleLine="true"
+                    android:imeOptions="actionDone"
+                    android:textSize="@dimen/mlearningedttxt_textsize" >
+			</EditText>
+            </LinearLayout>
+			    <TextView
+			        android:id="@+id/commentstxt"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_marginTop="10dp"
+			        android:text="@string/commentstxt_text"
+			        android:textColor="@color/commentstxt_textcolor"
+			        android:textSize="@dimen/commentstxt_textsize" />
+				<EditText
+				    android:id="@+id/commentsedttxt"
+				    android:layout_width="650dp"
+				    android:layout_height="90dp"
+				    android:layout_marginLeft="120dp"
+				    android:layout_marginTop="15dp"
+				    android:ems="10"
+				    android:gravity="top|left"
+				    android:inputType="textMultiLine"
+				    android:maxLength="150"
+				    android:textSize="@dimen/commentsedttxt_textsize" >
+				</EditText>
+        </LinearLayout>
+    </ScrollView>
+      <RelativeLayout
+          android:id="@+id/basignrelative"
+          android:layout_width="600dp"
+          android:layout_height="400dp"
+          android:layout_centerInParent="true"
+          android:background="@drawable/basignrelative"
+          android:visibility="gone" >
+        <TextView
+            android:id="@+id/bapicttxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/bapicttxt_text"
+            android:textColor="@color/bapicttxt_textcolor"
+            android:textSize="@dimen/bapicttxt_textsize" />
+        <Button
+            android:id="@+id/imgcapbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/bapicttxt"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/imgcapbtn"/>
+        <ImageView
+            android:id="@+id/capimg"
+            android:layout_width="90dp"
+            android:layout_height="75dp"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="80dp"
+            android:layout_toRightOf="@id/imgcapbtn"
+            android:src="@drawable/capimg" />
+         <TextView
+             android:id="@+id/basignlbltxt"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignParentLeft="true"
+             android:layout_below="@id/imgcapbtn"
+             android:layout_marginLeft="60dp"
+             android:layout_marginTop="20dp"
+             android:text="@string/basignlbltxt_text"
+             android:textColor="@color/basignlbltxt_textcolor"
+             android:textSize="@dimen/basignlbltxt_textsize" />
+         <RelativeLayout
+             android:id="@+id/basignlinear"
+             android:layout_width="450dp"
+             android:layout_height="90dp"
+             android:layout_alignParentLeft="true"
+             android:layout_below="@id/basignlbltxt"
+             android:layout_marginLeft="60dp"
+             android:layout_marginTop="15dp"
+             android:orientation="horizontal"
+             android:background="@color/basignlinear_bgcolor" >
+			<ImageView 
+			    android:id="@+id/imageView1"  
+			    android:layout_height="match_parent"
+			    android:layout_width="match_parent"
+			    android:src="@drawable/app_icon">
+			</ImageView>       
+		 </RelativeLayout>
+         <LinearLayout 
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_below="@id/basignlinear"
+             android:layout_marginTop="20dp"
+             android:layout_centerHorizontal="true"
+             android:orientation="horizontal">
+		  <Button
+              android:id="@+id/summaryclearbtn"
+              android:layout_width="80dp"
+              android:layout_height="50dp"
+              android:text="@string/summaryclearbtn_text"
+              android:textSize="@dimen/summaryclearbtn_textsize" />
+          <Button
+              android:id="@+id/signsumitbtn"
+              android:layout_width="120dp"
+              android:layout_height="50dp"
+              android:text="@string/basumitbtntxt_text"
+              android:textSize="@dimen/basumitbtntxt_textsize" />
+          </LinearLayout>
+    </RelativeLayout>
+     <RelativeLayout
+        android:id="@+id/footerrelative"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/footerbg" >
+        <Button
+            android:id="@+id/backbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/backbtn"/>
+        <Button
+            android:id="@+id/basubmitbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/basubmitbtn"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true">
+            <Button
+                android:id="@+id/basearchbtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="25dp"
+                android:background="@drawable/basearchbtn" />
+            <Button
+                android:id="@+id/bainfobtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="65dp"
+                android:background="@drawable/bainfobtn" />
+   	        <Button
+   	            android:id="@+id/auditscorebtn"
+   	            android:layout_width="wrap_content"
+   	            android:layout_height="wrap_content"
+   	            android:layout_marginLeft="85dp"
+   	            android:background="@drawable/auditscorebtn" />
+        </LinearLayout>
+    </RelativeLayout>
+ </RelativeLayout>

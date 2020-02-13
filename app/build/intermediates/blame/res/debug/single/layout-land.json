@@ -1,0 +1,70 @@
+[
+    {
+        "merged": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\readyreckoner.xml",
+        "source": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\src\\main\\res\\layout-land\\readyreckoner.xml"
+    },
+    {
+        "merged": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\login.xml",
+        "source": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\src\\main\\res\\layout-land\\login.xml"
+    },
+    {
+        "merged": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\baauditscore.xml",
+        "source": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\src\\main\\res\\layout-land\\baauditscore.xml"
+    },
+    {
+        "merged": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\basearch.xml",
+        "source": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\src\\main\\res\\layout-land\\basearch.xml"
+    },
+    {
+        "merged": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\basummary.xml",
+        "source": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\src\\main\\res\\layout-land\\basummary.xml"
+    },
+    {
+        "merged": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\traininglistrow.xml",
+        "source": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\src\\main\\res\\layout-land\\traininglistrow.xml"
+    },
+    {
+        "merged": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\basearchdata.xml",
+        "source": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\src\\main\\res\\layout-land\\basearchdata.xml"
+    },
+    {
+        "merged": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\list_row.xml",
+        "source": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\src\\main\\res\\layout-land\\list_row.xml"
+    },
+    {
+        "merged": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\training.xml",
+        "source": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\src\\main\\res\\layout-land\\training.xml"
+    },
+    {
+        "merged": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\configpage.xml",
+        "source": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\src\\main\\res\\layout-land\\configpage.xml"
+    },
+    {
+        "merged": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\trainingdes.xml",
+        "source": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\src\\main\\res\\layout-land\\trainingdes.xml"
+    },
+    {
+        "merged": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\home.xml",
+        "source": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\src\\main\\res\\layout-land\\home.xml"
+    },
+    {
+        "merged": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\balist.xml",
+        "source": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\src\\main\\res\\layout-land\\balist.xml"
+    },
+    {
+        "merged": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\baauditform.xml",
+        "source": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\src\\main\\res\\layout-land\\baauditform.xml"
+    },
+    {
+        "merged": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\prevsummary.xml",
+        "source": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\src\\main\\res\\layout-land\\prevsummary.xml"
+    },
+    {
+        "merged": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\readyreckonerdata.xml",
+        "source": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\src\\main\\res\\layout-land\\readyreckonerdata.xml"
+    },
+    {
+        "merged": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\pendingaudit.xml",
+        "source": "G:\\OJTClient\\OJTClient8.01\\OJTClient8.0\\app\\src\\main\\res\\layout-land\\pendingaudit.xml"
+    }
+]

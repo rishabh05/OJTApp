@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+    <TextView
+        android:id="@+id/headingtxt"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/menutopbarbg"
+        android:gravity="center"
+        android:text="@string/balist_headingtxt_text"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/headingtxt_textcolor"
+        android:textSize="@dimen/headingtxt_textsize"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/searchedttxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/headingtxt"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/search"
+        android:ems="10"
+        android:inputType="none"
+        android:paddingLeft="15dp"
+        android:paddingRight="80dp"
+        android:singleLine="true" >
+
+    </EditText>
+
+    <ListView
+        android:id="@+id/balistView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/searchedttxt"
+        android:layout_marginBottom="65dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:cacheColorHint="#00000000"
+        android:isScrollContainer="false"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" >
+
+    </ListView>
+    <TextView
+        android:id="@+id/nobatxt"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:textStyle="bold"
+        android:text="@string/nobatxt_text"
+        android:textColor="@color/nobatxt_textcolor"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="@dimen/nobatxt_textsize"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/footerbg" >
+        <Button
+            android:id="@+id/backbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/backbtn"
+            android:text="" />
+    </RelativeLayout>
+</RelativeLayout>
